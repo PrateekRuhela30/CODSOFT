@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Very large CSVs shouldn't be pushed to GitHub)
+data/*.csv
+data/*.zip
+
+# C environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Joblib/Pickled models
+models/*.joblib
+models/*.pkl
